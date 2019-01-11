@@ -76,7 +76,7 @@ export default {
     },
     placeholder: {
       type: String,
-      default: 'Write a reply'
+      default: '輸入訊息'
     },
     showTypingIndicator: {
       type: String,
@@ -143,7 +143,7 @@ export default {
       if (this.participants.length > 1) {
         return 'You, ' + this.participants[0].name + ' & others'
       } else {
-        return 'You & ' + this.participants[0].name
+        return this.participants[0].name
       }
     }
   },

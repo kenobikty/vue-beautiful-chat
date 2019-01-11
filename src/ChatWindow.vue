@@ -83,7 +83,7 @@ export default {
     },
     placeholder: {
       type: String,
-      default: 'Write a reply'
+      default: '輸入訊息'
     },
     showTypingIndicator: {
       type: String,
@@ -116,7 +116,7 @@ export default {
   },
   methods: {
     handleUserListToggle(showUserList) {
-      this.showUserList = showUserList
+      // this.showUserList = showUserList
     },
     getSuggestions(){
       return this.messages.length > 0 ? this.messages[this.messages.length - 1].suggestions : []

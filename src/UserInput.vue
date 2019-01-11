@@ -69,7 +69,7 @@ export default {
     },
     placeholder: {
       type: String,
-      default: 'Write a reply'
+      default: '輸入訊息'
     },
     colors: {
       type: Object,
